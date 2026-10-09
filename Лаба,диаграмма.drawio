@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Страница-1" id="CkJrzBIFpisYErgg9qn_">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-8" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="начало" vertex="1">
+          <mxGeometry height="80" width="120" x="330" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&#xa;&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-7674ecd0-7fff-7076-00c1-324b0af1ec43&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.295;margin-top:0pt;margin-bottom:5pt;&quot;&gt;&lt;span style=&quot;font-size:10.5pt;font-family:Aptos;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;блок-схема «Банкомат» (2 балла). Выдача разрешена, если сумма положительна, не превышает баланс и кратна 10. Иначе сообщить причину отказа.&lt;/span&gt;&lt;/p&gt;&lt;/b&gt;&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="30" width="220" x="30" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-10" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-6" value="l">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-20" connectable="0" parent="cSxD3Ty4HPkCPpuZOBTl-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="да" vertex="1">
+          <mxGeometry relative="1" x="-0.5964" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-13" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-19" value="нет">
+          <mxGeometry relative="1" x="-0.7196" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="150" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="сумма &amp;gt; 0?" vertex="1">
+          <mxGeometry height="80" width="170" x="305" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-9" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ввести баланс и сумму" vertex="1">
+          <mxGeometry height="60" width="120" x="330" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-12" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-18" value="нет">
+          <mxGeometry relative="1" x="-0.6667" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="сумма &amp;lt;= баланса?" vertex="1">
+          <mxGeometry height="80" width="170" x="440" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-14" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-17" value="нет">
+          <mxGeometry relative="1" x="-0.6522" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-15" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-16" value="да">
+          <mxGeometry relative="1" x="-0.6" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="770" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;shapeInside=1;" value="сумма mod 10 = 0?" vertex="1">
+          <mxGeometry height="80" width="200" x="550" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-11" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-7" value="да">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="выдача рарешена" vertex="1">
+          <mxGeometry height="60" width="120" x="780" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="в выдаче отказано: сумма должна быть кратна 10" vertex="1">
+          <mxGeometry height="60" width="120" x="420" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="в выдаче отказано: недостаточно средств" vertex="1">
+          <mxGeometry height="60" width="120" x="240" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-28" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="в выдаче отказано: сумма должна быть положительной" vertex="1">
+          <mxGeometry height="60" width="120" x="90" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-21" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="конец" vertex="1">
+          <mxGeometry height="80" width="120" x="390" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-22" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.993;entryY=0.654;entryDx=0;entryDy=0;entryPerimeter=0;" target="cSxD3Ty4HPkCPpuZOBTl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-23" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="cSxD3Ty4HPkCPpuZOBTl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cSxD3Ty4HPkCPpuZOBTl-24" edge="1" parent="1" source="cSxD3Ty4HPkCPpuZOBTl-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.221;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;" target="cSxD3Ty4HPkCPpuZOBTl-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
